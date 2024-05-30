@@ -1,0 +1,43 @@
+[
+  {
+    "command": "workbench.action.quickOpen",
+    "key": "ctrl+f"
+  },
+  {
+    "command": "workbench.action.quickOpenNavigateNext",
+    "key": "ctrl+n"
+  },
+  {
+    "command": "workbench.action.quickOpenNavigatePrevious",
+    "key": "ctrl+p"
+  },
+  {
+    "command": "selectNextSuggestion",
+    "key": "ctrl+n",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+  },
+  {
+    "command": "selectPrevSuggestion",
+    "key": "ctrl+p",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+  },
+  {
+    "command": "editor.action.showDefinitionPreviewHover",
+    "key": "ctrl+f1"
+  },
+  {
+    "command": "selectNextCodeAction",
+    "key": "ctrl+n",
+    "when": "codeActionMenuVisible"
+  },
+  {
+    "command": "selectPrevCodeAction",
+    "key": "ctrl+p",
+    "when": "codeActionMenuVisible"
+  },
+  {
+    "command": "workbench.action.showAllSymbols",
+    "key": "ctrl+t"
+  }
+]
+
