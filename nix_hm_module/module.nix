@@ -29,15 +29,5 @@ in
         };
       }
     )
-    (
-      lib.mkIf cfg.configureHaskeline {
-        programs.vscode = {
-          extensions = with pkgs.vscode-extensions; [
-            vscodevim.vim
-          ];
-          keybindings = builtins.fromJSON (builtins.readFile ./files/vscode_keybindings.json);
-        };
-      }
-    )
   ];
 }
